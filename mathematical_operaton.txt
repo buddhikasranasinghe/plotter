@@ -1,0 +1,40 @@
+POWER OF PYTHON
+power of a value  can get using pow(x, y)
+ x - number whose power has to be  calculate
+ y - value raised to compute power
+
+LOG VALUES IN PYTHON
+math.log(a, base)
+a - the numeric value
+base - base to which the logrithm has to be computed
+
+math.log2(A)
+a - integer value ( Base = 2 )
+
+math.log10( a )
+ a - the numeric value ( base = 10 )
+
+math.log1p( a ) 
+   this function is use to  logrithm(1 + a)
+
+for minus values 
+int( math.log10(-value) + 1 )
+
+np.log(array_name) < = can get log value of value list
+here array_name = [some values inside here]
+
+SQUARE ROOT VALUE
+math.sqrt(value)
+np.sqrt([list]) <= square rot of  all list value
+
+TOOL TIP IN PYTHON
+from tkinter.tix import *
+
+tip = Balloon(root)
+
+tip.bind_widget(<widget_name>, balloonmsg="<tip here>")
+tip.message.config(bg='<background colour>', fg='<foreground colour>')
+
+SAVE AS CSV
+
+df.to_csv(<file  path to save csv file >,  index = false) <= when index = True indexes of data frame is save as csv in csv.
